@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+        
+      <a class="navbar-brand headfont" ><b>EndUser MediCare</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link headfont"   [routerLink]="['/Home']"><b>Home</b></a>
+          <a class="nav-link  headfont"   [routerLink]="['/Login']">Login</a>
+          <a class="nav-link  headfont"  [routerLink]="['/Register']">Register</a>
+          <a class="nav-link headfont" [routerLink]="['/Booking']">Booking</a>
+          <a class="nav-link headfont" [routerLink]="['/Contact']">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  
